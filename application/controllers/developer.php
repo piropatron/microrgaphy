@@ -1,8 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-$php_file = __DIR__. '/../' . "Base_Controller.php";
-file_exists($php_file) ? require_once $php_file : die('File '.$php_file.' does not exist!');
-
 class Developer extends Base_Controller {
 
 	public function __construct(){

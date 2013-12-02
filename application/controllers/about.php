@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class About extends MY_Controller {
-///109.86.2.21
+
 	public $title	= __CLASS__;
 
 	public function __construct(){
