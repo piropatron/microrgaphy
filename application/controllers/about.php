@@ -69,7 +69,7 @@ class About extends MY_Controller {
                     $num_part++;
                 }
             }
-            //delete_files($dir, TRUE);
+            delete_files($dir, TRUE);
         }
 
 
